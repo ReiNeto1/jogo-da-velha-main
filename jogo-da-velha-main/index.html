@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>  
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="background">
+        <section class="title">
+            <h1>Jogo da Velha</h1> 
+           <img src="Logo 2.jpeg" alt="logo" class="logo">
+        </section>
+
+        <div class="Placar">
+          
+          <h1>Placar do Jogo da Velha</h1>
+          <div class="jogador" id="playerX">
+              <p>Jogador X</p>
+              <p id="scoreX">0</p>
+          </div>
+          <div class="jogador" id="playerO">
+              <p>Jogador O</p>
+              <p id="scoreO">0</p>
+          </div>
+      </div>
+  
+        <section class="display">
+            Jogador <span class="display-player playerX">X</span> turno
+        </section>
+        
+        <section class="container">
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+        </section>
+        <section class="display announcer hide"></section>
+        <section class="controls">
+            <button id="reset">Reset</button>
+        </section>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+</html>

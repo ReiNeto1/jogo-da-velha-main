@@ -1,0 +1,116 @@
+body {
+    font-family: 'Itim', cursive;
+    background-color: #043852;
+    
+}
+
+.logo {
+    width: 250px; 
+    height: auto; 
+    position: absolute;
+    left: 20px;
+    top: 20px; 
+
+}
+
+.background {
+    background-color: #043852;
+    height: 117vh;
+    padding-top: 1px;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 5%; /* Margem superior reduzida */
+}
+
+.display {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+}
+
+.tile {
+    border: 1px solid white;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+    margin-top: 1%;
+}
+
+.playerX {
+    color: #2ec309;
+}
+
+.playerO {
+    color: #fa0202;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.controls button {
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+.restart {
+    background-color: #0059f3;
+}
+
+#reset {
+    background-color: #fa0202;
+}
+
+.Placar {
+    text-align: center;
+    margin-top: 30px;
+    color: #2ec309;
+}
+
+.jogador {
+    display: inline-block;
+    margin: 0 20px;
+    color: white;
+}
+
+.jogador p {
+    margin: 5px 0;
+    color: white;
+}
+
+.jogador p:first-child {
+    font-weight: bold;
+    color: white;
+}
+
