@@ -1,28 +1,32 @@
 # Jogo da Velha
 
-Este é um simples jogo da velha implementado em HTML, CSS e JavaScript.
+Este é um jogo da velha simples feito em HTML, CSS e JavaScript.
 
 ## Como Jogar
 
 1. Abra o arquivo `index.html` no seu navegador.
-2. Os jogadores se revezam para marcar um quadrado vazio clicando nele.
-3. O primeiro jogador a conseguir alinhar três de suas marcas horizontal, vertical ou diagonalmente vence.
-4. Se todos os quadrados estiverem preenchidos e não houver um vencedor, o jogo termina em empate.
-5. Você pode reiniciar o jogo a qualquer momento clicando no botão "Reset".
+2. Os jogadores alternam clicando em quadrados vazios para marcá-los.
+3. O primeiro jogador a alinhar três marcas na horizontal, vertical ou diagonal vence.
+4. Se todos os quadrados forem preenchidos sem um vencedor, é empate.
+5. Reinicie o jogo a qualquer momento clicando em "Reset".
 
 ## Placar
 
-- O placar exibe a contagem de vitórias para cada jogador.
-- Os jogadores são identificados como "Jogador X" e "Jogador O".
+- O placar mostra quantas vitórias cada jogador conquistou.
+- Os jogadores são "Jogador X" e "Jogador O".
 
 ## Personalização
 
-Você pode personalizar a aparência do jogo modificando o arquivo `style.css`.
+Você pode personalizar a aparência do jogo editando o arquivo `style.css`.
 
-## Imagem de como ficou a pagina 
+## Funcionalidade em Dispositivos Móveis
 
-Tem uma imagem de como ficou para exemplicifar.
+O jogo é adaptado para funcionar em dispositivos móveis.
+
+## Visualização da Página
+
+Há uma imagem mostrando como a página final ficou.
 
 ## Créditos
 
-Este jogo foi desenvolvido por [Reinaldo].
+Desenvolvido por [Reinaldo].

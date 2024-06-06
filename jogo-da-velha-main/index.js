@@ -56,10 +56,10 @@ window.addEventListener("DOMContentLoaded", () => {
   const announce = (type) => {
     switch (type) {
       case PLAYERO_WON:
-        announcer.innerHTML = 'Jogador <span class="playerO">O</span> Venceu';
+        announcer.innerHTML = `Jogador <span class="playerO">O</span> Venceu <img src="trofeu.png" alt="game" class="game-icon">`;
         break;
       case PLAYERX_WON:
-        announcer.innerHTML = 'Jogador <span class="playerX">X</span> Venceu';
+        announcer.innerHTML = `Jogador <span class="playerX">X</span> Venceu <img src="trofeu.png" alt="game" class="game-icon">`;
         break;
       case TIE:
         announcer.innerText = "Empate";
@@ -124,4 +124,3 @@ window.addEventListener("DOMContentLoaded", () => {
 
   resetButton.addEventListener("click", resetBoard);
 });
-

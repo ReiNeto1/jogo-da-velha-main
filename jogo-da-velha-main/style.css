@@ -12,6 +12,14 @@ body {
     top: 20px; 
 
 }
+/* Icon controle do video game*/
+.game {
+    width: 150px; 
+    height: auto; 
+    position: absolute;
+    top: 35px; 
+    left: 840px;
+}
 
 .background {
     background-color: #043852;
@@ -23,7 +31,7 @@ body {
     color: white;
     text-align: center;
     font-size: 40px;
-    margin-top: 5%; /* Margem superior reduzida */
+    margin-top: 5%; 
 }
 
 .display {
@@ -113,4 +121,49 @@ body {
     font-weight: bold;
     color: white;
 }
+/* Trofeu de ganhador 1#*/
+.game-icon {
+    width: 74px; 
+    height: 74px;
+    margin-left: 5px; 
+    vertical-align: middle; 
+  }
 
+  /* Media queries para dispositivos móveis */
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 70px;
+    }
+    .title {
+        font-size: 20px;
+    }
+    .Placar {
+        font-size: 16px;
+    }
+    .jogador p {
+        font-size: 14px;
+    }
+    .display {
+        font-size: 16px;
+    }
+    .tile {
+        min-width: 60px;
+        min-height: 60px;
+        font-size: 24px;
+    }
+    .controls button {
+        padding: 6px 12px;
+        font-size: 16px;
+    }
+    .game-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .game {
+        width: 80px; 
+        top: 15px; 
+        left: 290px;
+    }
+}
